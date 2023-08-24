@@ -19,7 +19,7 @@ export const Navbar = () => {
         </Link>
         <ul>
           <Link href="/">Web Chat</Link>
-          <Link href="/charts">Grafícos</Link>
+          <Link href="/charts">Gráficos</Link>
         </ul>
       </nav>
     </header>

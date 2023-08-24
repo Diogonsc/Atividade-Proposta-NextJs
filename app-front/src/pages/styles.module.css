@@ -6,6 +6,11 @@
     height: 400px;
     margin: 100px auto;
   }
+
+  .container ul {
+    border: 1px solid var(--GREEN_500);
+    height: auto;
+  }
   
   
   .container li {
@@ -15,7 +20,7 @@
     gap: 10px;
   }
   
-  .right {
+  .container .right {
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,7 +28,7 @@
     margin: 1rem;
   }
   
-  .left {
+  .container .left {
     width: 100%;
     display: flex;
     align-items: center;
@@ -61,4 +66,9 @@
     border-radius: 8px;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+  }
+
+  .formulario button:hover {
+    background-color: var(--GREEN_500);
   }
