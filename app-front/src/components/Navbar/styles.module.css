@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    padding: 1rem 4rem;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.container nav ul a {
+    color: var(--WHITE);
+    cursor: pointer;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 0.3rem 0;
+}
+
+.container nav ul a:hover {
+    border-bottom: 2px solid var(--GREEN_700);
+
+    transition-duration: 0.3s;
+}
+
+.container nav ul a.active {
+    border-bottom: 2px solid var(--GREEN_700);
+}
+
+.logo {
+    color: #ffffff70;
+}
+
+@media (prefers-color-scheme: dark) {
+    .vercelLogo {
+        filter: invert(1);
+    }
+
+    .logo {
+        filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    }
+}
